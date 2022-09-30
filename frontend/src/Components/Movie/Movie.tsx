@@ -6,6 +6,7 @@ export default function Movie(props:{movie : movieType}){
         <article className={"moviecard"}>
             <h2>{props.movie.title}</h2>
             <img src={`${props.movie.poster}`}/>
+
         </article>
     )
 }

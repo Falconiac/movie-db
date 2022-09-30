@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
 import axios from "axios";
+import Movie from "./Components/Movie/Movie";
+import MovieGallery from "./Components/MovieGallery/MovieGallery";
 
 function App() {
 
@@ -23,13 +25,13 @@ function App() {
     getAllMovies(url);
   },[])
 
+  {console.log(movies)}
+
   return (
+
     <section className="App">
 
-
-
-
-
+      <MovieGallery key={"moviegallery"} movies={movies}/>
 
     </section>
   );
