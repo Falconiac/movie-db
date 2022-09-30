@@ -13,4 +13,5 @@ public class Movie {
     private String release ="";
     private String poster = "";
     private boolean isMarked = false;
+
 }
