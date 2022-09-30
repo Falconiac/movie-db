@@ -21,6 +21,10 @@ public class MovieService {
     public List<Movie> getAllMovies(){
       List<Movie> foundMovies = movieDB.getAllMovies();
       return foundMovies;
+    }
 
+    public Movie addNewMovieToDB(Movie movie){
+        Movie newMovie = movieDB.addNewMovie(movie);
+        return newMovie;
     }
 }

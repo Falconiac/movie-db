@@ -33,4 +33,9 @@ public class MovieDB {
         return new ArrayList<Movie>(movies.values());
     }
 
+   public Movie addNewMovie(Movie movie){
+        movies.put(movie.getId(), movie);
+        return movie;
+   }
+
 }
