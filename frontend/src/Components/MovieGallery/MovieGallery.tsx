@@ -1,11 +1,11 @@
-import MovieType from "../Movie/MovieType";
+import movie from "../../model/Movie";
 import Movie from "../Movie/Movie";
 import React from "react";
 import "./MovieGalleryStyled.css";
 
 
 type MovieGalleryProps ={
-    movies : MovieType[];
+    movies : movie[];
 }
 
 export default function MovieGallery( props:MovieGalleryProps){

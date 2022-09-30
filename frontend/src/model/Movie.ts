@@ -1,4 +1,4 @@
-type MovieType={
+type movie ={
 
 title:String
 release:String;
@@ -7,4 +7,4 @@ isMarked:boolean;
 
 }
 
-export default MovieType;
+export default movie;
