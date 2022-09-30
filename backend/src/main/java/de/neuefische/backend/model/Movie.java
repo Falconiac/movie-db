@@ -15,3 +15,4 @@ public class Movie {
     private boolean isMarked = false;
 
 }
+
