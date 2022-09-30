@@ -1,0 +1,14 @@
+.moviecard{
+    width: 18vw;
+    border: 2px solid white;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.2em;
+}
+
+.moviecard img{
+    max-width: 15vw;
+}
