@@ -29,11 +29,11 @@ function App() {
 
   return (
 
-    <section className="App">
+    <body className="App">
 
       <MovieGallery key={"moviegallery"} movies={movies}/>
 
-    </section>
+    </body>
   );
 }
 
