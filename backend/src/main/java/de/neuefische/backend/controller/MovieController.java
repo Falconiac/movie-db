@@ -25,5 +25,4 @@ public class MovieController {
     public List<Movie> getAllMovies(){
         List<Movie> foundMovies = movieService.getAllMovies();
         return foundMovies;
-
     }}

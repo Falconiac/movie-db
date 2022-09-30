@@ -13,7 +13,7 @@ public class MovieDB {
 
     private Map<String, Movie> movies = new HashMap<>(Map.of(
             "1",new Movie("1",
-                    "Star Wars",
+                    "Wars",
                     "1977",
                     "https://i.etsystatic.com/14140434/r/il/de4702/1526222179/il_fullxfull.1526222179_kl3i.jpg",
                     false),
