@@ -1,6 +1,11 @@
 import "./AddMovieStyled.css";
-import {ChangeEvent, useState} from "react";
+import {ChangeEvent, FormEvent, useState} from "react";
 import movie from "../../model/movie";
+import axios from "axios";
+
+
+
+const url = "/movie/";
 
 export default function AddMovie(){
 
@@ -14,6 +19,11 @@ export default function AddMovie(){
         setInputs(values => ({...values,[name]:value}))
     }
 
+    const handleSubmit=(event:FormEvent<HTMLFormElement>)=>{
+        event.preventDefault()
+        console.log("Output from Form: " + inputs)
+        axios.post(url,inputs);
+    }
     const emptyMovieElement : movie = {
         id:"",
         title:"",
@@ -23,16 +33,18 @@ export default function AddMovie(){
     }
 
     return(
-        <section className={"addmovie"}>
+        <section className={"addmovie"} onSubmit={handleSubmit}>
             <form className={"form"}>
                 <label htmlFor={"title"}>Title:</label>
                 <input name={"title"} id={"title"} type={"text"} onChange={handleChange}/>
 
-                <label htmlFor={"release"}>Title:</label>
+                <label htmlFor={"release"}>Release:</label>
                 <input name={"release"} id={"release"} type={"text"} onChange={handleChange}/>
 
-                <label htmlFor={"poster"}>Title:</label>
+                <label htmlFor={"poster"}>Poster-URL:</label>
                 <input name={"poster"} id={"poster"} type={"text"} onChange={handleChange}/>
+
+                <input type={"submit"}/>
             </form>
         </section>
     )

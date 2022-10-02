@@ -25,15 +25,14 @@ function App() {
     getAllMovies(url);
   },[])
 
-  {console.log(movies)}
 
   return (
 
-    <body className="App">
+    <header className="App">
 
       <MovieGallery key={"moviegallery"} movies={movies}/>
 
-    </body>
+    </header>
   );
 }
 

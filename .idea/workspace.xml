@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96519b2e-229c-41bf-b644-853a915d39b2" name="Changes" comment="BE - Post request implemented">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/repo/fakedb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/service/IdService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Components/AddMovie/AddMovie.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/Components/AddMovie/AddMovieStyled.css" afterDir="false" />
+    <list default="true" id="96519b2e-229c-41bf-b644-853a915d39b2" name="Changes" comment="BE - D-Service implemented">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/model/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/service/MovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Components/Movie/Movie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/Movie/Movie.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Components/AddMovie/AddMovie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/AddMovie/AddMovie.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/Components/MovieGallery/MovieGallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/MovieGallery/MovieGallery.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/model/Movie.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/model/movie.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664525657434</updated>
       <workItem from="1664525660030" duration="1232000" />
-      <workItem from="1664526926343" duration="20494000" />
+      <workItem from="1664526926343" duration="21678000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit including backend">
       <created>1664526966661</created>
@@ -229,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664546016273</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="BE - D-Service implemented">
+      <created>1664717614752</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664717614752</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +267,7 @@
     <MESSAGE value="FE - Movie-Model refactored" />
     <MESSAGE value="FE - GetAllMovies Done, conditional rendering of no Movies found implemented" />
     <MESSAGE value="BE - Post request implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="BE - Post request implemented" />
+    <MESSAGE value="BE - D-Service implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="BE - D-Service implemented" />
   </component>
 </project>
