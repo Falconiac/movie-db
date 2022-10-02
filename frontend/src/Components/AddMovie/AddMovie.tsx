@@ -30,7 +30,7 @@ export default function AddMovie(){
         title:"",
         release:"",
         poster:"",
-        isMarked:false
+        marked:false
     }
 
     return(

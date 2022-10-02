@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 
 @Service
 public class MovieService {
@@ -31,4 +32,9 @@ public class MovieService {
         Movie newMovie = movieDB.addNewMovie(movie);
         return newMovie;
     }
-}
+
+    public Movie serviceBookmarkMovie(Movie movie){
+
+        return movieDB.bookmarkMovie(movie);
+
+    }}

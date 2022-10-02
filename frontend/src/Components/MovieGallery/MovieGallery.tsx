@@ -14,6 +14,8 @@ export default function MovieGallery( props:MovieGalleryProps){
 
     const noMovies = props.movies.length == 0;
 
+
+
     return (
         <>
 

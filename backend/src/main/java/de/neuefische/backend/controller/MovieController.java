@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/movie")
+@RequestMapping(value = "/movie/")
 public class MovieController {
 
     private MovieService movieService;
@@ -28,6 +28,11 @@ public class MovieController {
     @PostMapping
     public Movie serviceAddNewMovieToDB(@RequestBody Movie movie) {
         return movieService.addNewMovieToDB(movie);
+    }
+
+    @PutMapping(path = "/{id}")
+    public Movie serviceBookmarkMovie(@PathVariable String id, @RequestBody Movie movie){
+        return movieService.serviceBookmarkMovie(movie);
     }
 }
 

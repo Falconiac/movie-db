@@ -12,3 +12,15 @@
 .moviecard img{
     max-width: 15vw;
 }
+
+.moviecard p{
+    color: white;
+}
+
+.aqua{
+    color: aqua;
+}
+
+.red{
+    color: hotpink;
+}

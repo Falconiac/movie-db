@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96519b2e-229c-41bf-b644-853a915d39b2" name="Changes" comment="FE - Add Movie added">
+    <list default="true" id="96519b2e-229c-41bf-b644-853a915d39b2" name="Changes" comment="FE - Little Styling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/repo/MovieDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/repo/MovieDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/service/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/Components/AddMovie/AddMovie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/AddMovie/AddMovie.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/Components/AddMovie/AddMovieStyled.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/AddMovie/AddMovieStyled.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Components/MovieGallery/MovieGallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/MovieGallery/MovieGallery.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Components/MovieGallery/MovieGalleryStyled.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/MovieGallery/MovieGalleryStyled.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Components/Movie/Movie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/Movie/Movie.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Components/Movie/MovieStyled.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/Movie/MovieStyled.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/model/movie.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/model/movie.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +126,7 @@
       <updated>1664525657434</updated>
       <workItem from="1664525660030" duration="1232000" />
       <workItem from="1664526926343" duration="22609000" />
-      <workItem from="1664719605495" duration="665000" />
+      <workItem from="1664719605495" duration="12322000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit including backend">
       <created>1664526966661</created>
@@ -241,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664718798854</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="FE - Little Styling">
+      <created>1664720809581</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664720809581</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +293,7 @@
     <MESSAGE value="BE - Post request implemented" />
     <MESSAGE value="BE - D-Service implemented" />
     <MESSAGE value="FE - Add Movie added" />
-    <option name="LAST_COMMIT_MESSAGE" value="FE - Add Movie added" />
+    <MESSAGE value="FE - Little Styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="FE - Little Styling" />
   </component>
 </project>

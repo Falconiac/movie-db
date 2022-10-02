@@ -3,7 +3,7 @@ id:string,
 title:string
 release:string;
 poster:string;
-isMarked:boolean;
+marked:boolean;
 
 }
 export default movie;

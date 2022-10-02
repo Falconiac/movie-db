@@ -20,13 +20,15 @@ function App() {
     }).catch((error)=>{
       console.log(error)
     })
+
   }
 
   useEffect(()=>{
     getAllMovies(url);
+
   },[])
 
-
+    console.log(movies)
   return (
 
     <header className="App">

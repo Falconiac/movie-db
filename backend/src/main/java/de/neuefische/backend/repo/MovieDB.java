@@ -38,4 +38,9 @@ public class MovieDB {
         return movie;
    }
 
+   public Movie bookmarkMovie(Movie movie){
+        movies.put(movie.getId(), movie);
+        return movie;
+   }
+
 }
