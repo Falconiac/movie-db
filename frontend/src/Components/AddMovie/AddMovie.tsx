@@ -23,6 +23,7 @@ export default function AddMovie(){
         event.preventDefault()
         console.log("Output from Form: " + inputs)
         axios.post(url,inputs);
+        window.location.reload();
     }
     const emptyMovieElement : movie = {
         id:"",

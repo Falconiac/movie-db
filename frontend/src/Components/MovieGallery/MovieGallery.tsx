@@ -16,7 +16,7 @@ export default function MovieGallery( props:MovieGalleryProps){
 
     return (
         <>
-            <AddMovie />
+
         <section className={"movgal"}>
 
             {noMovies && <h2>No Movies found !!!</h2>}

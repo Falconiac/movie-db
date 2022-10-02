@@ -3,6 +3,7 @@ import './App.css';
 import axios from "axios";
 import Movie from "./Components/Movie/Movie";
 import MovieGallery from "./Components/MovieGallery/MovieGallery";
+import AddMovie from "./Components/AddMovie/AddMovie";
 
 function App() {
 
@@ -29,7 +30,7 @@ function App() {
   return (
 
     <header className="App">
-
+      <AddMovie />
       <MovieGallery key={"moviegallery"} movies={movies}/>
 
     </header>
