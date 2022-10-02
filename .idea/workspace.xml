@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96519b2e-229c-41bf-b644-853a915d39b2" name="Changes" comment="FE - Movie-Model refactored">
+    <list default="true" id="96519b2e-229c-41bf-b644-853a915d39b2" name="Changes" comment="BE - Post request implemented">
       <change afterPath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/repo/fakedb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/service/IdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/AddMovie/AddMovie.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/AddMovie/AddMovieStyled.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/controller/MovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/repo/MovieDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/repo/MovieDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/de/neuefische/backend/service/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Components/Movie/Movie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/Movie/Movie.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/Components/MovieGallery/MovieGallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/MovieGallery/MovieGallery.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/model/Movie.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/model/movie.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +28,7 @@
         <option value="TypeScript JSX File" />
         <option value="CSS File" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -73,6 +79,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="de.neuefische.backend.service" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/frontend/src/model" />
     </key>
@@ -113,7 +122,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664525657434</updated>
       <workItem from="1664525660030" duration="1232000" />
-      <workItem from="1664526926343" duration="13133000" />
+      <workItem from="1664526926343" duration="20494000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit including backend">
       <created>1664526966661</created>
@@ -206,7 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664544016063</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="FE - GetAllMovies Done, conditional rendering of no Movies found implemented">
+      <created>1664544871195</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664544871195</updated>
+    </task>
+    <task id="LOCAL-00015" summary="BE - Post request implemented">
+      <created>1664546016273</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664546016273</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +264,8 @@
     <MESSAGE value="FE - Movie-Gallery added" />
     <MESSAGE value="FE - Movie-Gallery little styling" />
     <MESSAGE value="FE - Movie-Model refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="FE - Movie-Model refactored" />
+    <MESSAGE value="FE - GetAllMovies Done, conditional rendering of no Movies found implemented" />
+    <MESSAGE value="BE - Post request implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="BE - Post request implemented" />
   </component>
 </project>

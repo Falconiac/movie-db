@@ -1,4 +1,4 @@
-import movie from "../../model/Movie";
+import movie from "../../model/movie";
 import Movie from "../Movie/Movie";
 import React from "react";
 import "./MovieGalleryStyled.css";

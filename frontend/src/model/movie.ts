@@ -1,10 +1,9 @@
 type movie ={
-
-title:String
-release:String;
-poster:String;
+id:string,
+title:string
+release:string;
+poster:string;
 isMarked:boolean;
 
 }
-
 export default movie;

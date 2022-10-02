@@ -1,4 +1,4 @@
-import movieType from "../../model/Movie";
+import movieType from "../../model/movie";
 import "./MovieStyled.css";
 
 export default function Movie(props:{movie : movieType}){

@@ -12,10 +12,13 @@ import java.util.List;
 public class MovieService {
 
     private MovieDB movieDB;
+    private IdService idService;
+
 
     @Autowired
-    public MovieService(MovieDB movieDB) {
+    public MovieService(MovieDB movieDB, IdService idService) {
         this.movieDB = movieDB;
+        this.idService = idService;
     }
 
     public List<Movie> getAllMovies(){
@@ -24,6 +27,7 @@ public class MovieService {
     }
 
     public Movie addNewMovieToDB(Movie movie){
+        movie.setId(idService.generateID());
         Movie newMovie = movieDB.addNewMovie(movie);
         return newMovie;
     }

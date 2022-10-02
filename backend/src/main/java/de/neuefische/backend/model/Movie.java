@@ -8,12 +8,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 
 public class Movie {
-    private String id ="";
+    private String id = "";
     private String title = "";
     private String release ="";
     private String poster = "";
     private boolean isMarked = false;
 
 }
+
+
 
 
