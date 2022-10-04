@@ -1,0 +1,9 @@
+.movgal{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    overflow-x: scroll;
+    scrollbar-darkshadow-color: black;
+    width: 95%;
+    height: 70vh;
+}

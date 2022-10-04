@@ -4,18 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96519b2e-229c-41bf-b644-853a915d39b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="96519b2e-229c-41bf-b644-853a915d39b2" name="Changes" comment="FE - Bookmark done, no filter cause of problems">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Components/Movie/Movie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/Movie/Movie.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Components/Movie/MovieStyled.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/Movie/MovieStyled.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Components/MovieGallery/MovieGalleryStyled.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Components/MovieGallery/MovieGalleryStyled.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="CSS File" />
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -30,27 +46,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "openjdk-18",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b43fdd98b1fd705ae4c3a10cf25aad8a&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/jens-falcomarecek/Repositorys/hh-java-22-2/movie-db/frontend/node_modules/typescript/lib&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="de.neuefische.backend.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/model" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -87,7 +116,143 @@
       <option name="presentableId" value="Default" />
       <updated>1664525657434</updated>
       <workItem from="1664525660030" duration="1232000" />
+      <workItem from="1664526926343" duration="22609000" />
+      <workItem from="1664719605495" duration="13455000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit including backend">
+      <created>1664526966661</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664526966661</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Movie-Model added">
+      <created>1664530393972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664530393972</updated>
+    </task>
+    <task id="LOCAL-00003" summary="BE- Repo - MovieDB added">
+      <created>1664531360608</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664531360608</updated>
+    </task>
+    <task id="LOCAL-00004" summary="BE- Service - MovieService added">
+      <created>1664532139612</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664532139612</updated>
+    </task>
+    <task id="LOCAL-00005" summary="BE- Controller - MovieController added">
+      <created>1664533793557</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664533793557</updated>
+    </task>
+    <task id="LOCAL-00006" summary="FE - Frontend cleanup and axios installed">
+      <created>1664534904655</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664534904655</updated>
+    </task>
+    <task id="LOCAL-00007" summary="FE - In App.tsx getAllMovies with adding to useble Array done">
+      <created>1664535410262</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664535410262</updated>
+    </task>
+    <task id="LOCAL-00008" summary="FE - Adding Movie-Type">
+      <created>1664540527816</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664540527816</updated>
+    </task>
+    <task id="LOCAL-00009" summary="FE - Adding Movie-Component">
+      <created>1664540814408</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664540814408</updated>
+    </task>
+    <task id="LOCAL-00010" summary="FE - Movie-Component little style">
+      <created>1664541834304</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664541834304</updated>
+    </task>
+    <task id="LOCAL-00011" summary="FE - Movie-Gallery added">
+      <created>1664543313154</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664543313154</updated>
+    </task>
+    <task id="LOCAL-00012" summary="FE - Movie-Gallery little styling">
+      <created>1664543536320</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664543536320</updated>
+    </task>
+    <task id="LOCAL-00013" summary="FE - Movie-Model refactored">
+      <created>1664544016063</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664544016063</updated>
+    </task>
+    <task id="LOCAL-00014" summary="FE - GetAllMovies Done, conditional rendering of no Movies found implemented">
+      <created>1664544871195</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664544871195</updated>
+    </task>
+    <task id="LOCAL-00015" summary="BE - Post request implemented">
+      <created>1664546016273</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664546016273</updated>
+    </task>
+    <task id="LOCAL-00016" summary="BE - D-Service implemented">
+      <created>1664717614752</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664717614752</updated>
+    </task>
+    <task id="LOCAL-00017" summary="FE - Add Movie added">
+      <created>1664718798854</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664718798854</updated>
+    </task>
+    <task id="LOCAL-00018" summary="FE - Little Styling">
+      <created>1664720809581</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664720809581</updated>
+    </task>
+    <task id="LOCAL-00019" summary="FE - Bookmark done, no filter cause of problems">
+      <created>1664732062010</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1664732062010</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,5 +274,25 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/backend" />
     </ignored-roots>
+    <MESSAGE value="Initial commit including backend" />
+    <MESSAGE value="Movie-Model added" />
+    <MESSAGE value="BE- Repo - MovieDB added" />
+    <MESSAGE value="BE- Service - MovieService added" />
+    <MESSAGE value="BE- Controller - MovieController added" />
+    <MESSAGE value="FE - Frontend cleanup and axios installed" />
+    <MESSAGE value="FE - In App.tsx getAllMovies with adding to useble Array done" />
+    <MESSAGE value="FE - Adding Movie-Type" />
+    <MESSAGE value="FE - Adding Movie-Component" />
+    <MESSAGE value="FE - Movie-Component little style" />
+    <MESSAGE value="FE - Movie-Gallery added" />
+    <MESSAGE value="FE - Movie-Gallery little styling" />
+    <MESSAGE value="FE - Movie-Model refactored" />
+    <MESSAGE value="FE - GetAllMovies Done, conditional rendering of no Movies found implemented" />
+    <MESSAGE value="BE - Post request implemented" />
+    <MESSAGE value="BE - D-Service implemented" />
+    <MESSAGE value="FE - Add Movie added" />
+    <MESSAGE value="FE - Little Styling" />
+    <MESSAGE value="FE - Bookmark done, no filter cause of problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="FE - Bookmark done, no filter cause of problems" />
   </component>
 </project>
