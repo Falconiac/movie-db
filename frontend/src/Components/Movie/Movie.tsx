@@ -17,11 +17,8 @@ export default function Movie(props:{movie : movie}){
 
     return(
         <article className={"moviecard"}>
-            <h2>{props.movie.title}</h2>
+            <h2 className={"title"}>{props.movie.title}</h2>
             <img src={`${props.movie.poster}`}/>
-            <p>{`${props.movie.marked}`}</p>
-
-
 
             <MdThumbUpOffAlt size={"2em"} className={`${props.movie.marked ? "aqua" : "red"}`}  onClick={()=>
                 axios.put(url+thisID, {
@@ -31,6 +28,7 @@ export default function Movie(props:{movie : movie}){
                     "poster": `${props.movie.poster}`,
                     "marked": props.movie.marked ? false:true
                 })
+
             }/>
 
 

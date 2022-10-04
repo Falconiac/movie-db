@@ -1,5 +1,6 @@
 .moviecard{
-    width: 18vw;
+    width: 40vw;
+    max-height: 60vh;
     border: 2px solid white;
     border-radius: 1em;
     display: flex;
@@ -9,8 +10,15 @@
     padding: 1.2em;
 }
 
+.title{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+}
+
 .moviecard img{
-    max-width: 15vw;
+    max-width: 10vw;
 }
 
 .moviecard p{
